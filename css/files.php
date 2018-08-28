@@ -1,8 +1,8 @@
 <?php
 $driver = 'mysql';
-$db_name = 'statistic';
-$db_user = 'nikolay';
-$pass = 'fepipe76!!QQ';
+$db_name = '';
+$db_user = '';
+$pass = '';
 $host = 'localhost';
 $options = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION];
 $charset = 'utf8';
