@@ -1,7 +1,7 @@
 <?php
 $x = 88881699;
 
-if($_POST['send'] == $x)) {
-    echo 123;
+if($_POST['send'] {
+    
 }
 header("Location: /index.html");
