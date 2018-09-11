@@ -4,7 +4,7 @@ $charset = 'utf8';
 $options = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION];
 $host = 'localhost';
 $user = 'trans1t';
-$db_name = 'trans1t';
+$db_name = 'trans1t';.
 $pass = 'fepipe76!!QQ';
 try{
  $pdo = new PDO("$driver:host=$host;dbname=$db_name;charset=$charset",
