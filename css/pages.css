@@ -29,12 +29,6 @@ div{
     margin-top: 10em;
     margin-bottom: 15em;
 }
-h1{
-    display: block;
-    color: aliceblue;
-    text-align: center;
-    font-size: 3em;
-}
 form{
     margin-top: 3em;
     margin-bottom: 2em;
@@ -79,33 +73,35 @@ input{
     box-shadow: 1px 2px 10px white;
     transition: all 0.5s;
 }
-/*FOOTER STYLES*/
-footer{ 
-    height: 120px;
-    background-color: rgba(0,0,0,0.3);
-    border-radius: 50px;
-    width: 80%;
-    margin-left: 10%;
-    box-shadow: 2px 2px 10px black;
-}
-.menu{
-    height: 5em;
-    margin: 5px;
-    padding: 1em;
-    padding-left: 1em;
-}
-.f{
-    margin-left: 2em;
-}
-.menu:hover{
-    box-shadow: 0 0 10px black;
-}
 .num{
     color: white;
     display: inline-block;
     padding-left: 2em;
     font-size: 1.4em;
     text-shadow: 0px 0px 7px rgb(230,240,163);
+}
+h1{
+    color: white;
+    margin: 1em;
+    text-align: center;
+}
+p{
+    color: white;
+    padding: 1em;
+    line-height: 2em;
+    text-align: center;
+}
+button{
+    margin-bottom: 2em;
+    margin-left: 40%;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 20px;
+    background: rgb(230,240,163); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(230,240,163,1) 0%, rgba(210,230,56,1) 50%, rgba(195,216,37,1) 51%, rgba(219,240,67,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(230,240,163,1) 0%,rgba(210,230,56,1) 50%,rgba(195,216,37,1) 51%,rgba(219,240,67,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(230,240,163,1) 0%,rgba(210,230,56,1) 50%,rgba(195,216,37,1) 51%,rgba(219,240,67,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6f0a3', endColorstr='#dbf043',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 @media (max-width: 600px) {
     .num{
@@ -121,14 +117,6 @@ footer{
     .icons{
         margin: 5%;
     }   
-    h1{
-        padding-top: 1em;
-        padding-bottom: 0.4em;
-        display: block;
-        color: aliceblue;
-        text-align: center;
-        font-size: 2em;
-    } 
     div{
         width: 100%;
         height: 80%;
@@ -137,25 +125,11 @@ footer{
         margin-bottom: 0;
     }
     form{
-        margin: 0;
+        margin-top: 6em;
         text-align: center; 
     } 
     #send{
         font-size: 1em;
-    }
-    footer{ 
-        margin-top: 3em;
-        height: 100%;
-        background-color: rgba(0,0,0,0.3);
-        border-radius: 50px;
-        width: 80%;
-        margin-left: 2%;
-        box-shadow: 2px 2px 10px black;
-        margin-bottom: 10%;
-        padding-left: 15%;
-    } 
-    .f{
-        margin-left: 0;
     }
     #tel{ 
         font-size: 1em;
@@ -167,10 +141,5 @@ footer{
         border: 0px solid black;
         box-shadow: 2px 2px 10px black inset;
     }
-    .gg{
-        padding-left: 25%;
-    }
-    .menu{
-        padding-left: 3%;  
-    }
+    
 }
