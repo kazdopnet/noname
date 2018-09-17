@@ -91,6 +91,9 @@ p{
     line-height: 2em;
     text-align: center;
 }
+iframe{
+    width: 100%;
+}
 button{
     margin-bottom: 2em;
     margin-left: 40%;
